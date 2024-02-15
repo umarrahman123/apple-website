@@ -1,0 +1,376 @@
+* { margin: 0; 
+    padding: 0; 
+    border: border-box; 
+    font-family: Arial;
+    text-decoration: none;
+    }
+  /* body{
+    padding: 5px;
+  } */
+  
+  #navbar{
+  background-color:black; opacity: 80%;
+  color: whitesmoke;
+  text-align: center;
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 100%;
+  height: 20px;
+  position:top;
+  }
+  div ul li{ display:inline; margin-left:40px; font-size: small;}
+  
+  .img{
+    height: 100vh;
+    width: 100%;
+    background-image: url("./assets/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .intoimage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    line-height: 50px;
+    justify-content: center;
+    font-size:x-large;
+  }
+  .links1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .etext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* section 2 */
+  .img2{
+    height: 100vh; ;
+    width: 100%;
+    background-image: url("./assets/ipone.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px 10px 10px;
+  }
+  
+  .text2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Titanium{
+    font-size: 24px;
+  }
+  .links2{
+    font-size: 24px;
+  }
+  .intoimage2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: auto;
+    line-height: 50px;
+    justify-content: center;
+    font-size:x-large;
+    padding: 50px;
+    font-size:x-large;
+  }
+  
+  /* section3 */
+  
+  .img3{
+    height: 100vh; ;
+    width: 100%;
+    background-image: url("./assets/iponepromax.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px 10px 10px;
+  }
+  
+  .text3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .camera{
+    font-size: 24px;
+  }
+  .links3{
+    font-size: 24px;
+  }
+  .intoimage3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: auto;
+    line-height: 50px;
+    justify-content: center;
+    font-size:x-large;
+    padding: 50px;
+    font-size:x-large;
+  }
+  
+  /* section4 */
+  .parent1{
+    height: 580px; ;
+    width: 100%;
+    display: flex;
+  }
+  
+  .child1{
+    height: 100%;
+    width: 50%;
+    background-image: url("./assets/appleicon.jpg");
+    background-repeat: no-repeat;
+    margin: 10px 5px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: auto;
+    line-height: 50px;
+    justify-content: center;
+    font-size:x-large;
+    padding: 50px;
+    
+  
+  }
+  .child1text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* extra */
+  
+    margin-top: auto;
+    margin-bottom: 90PX;
+    line-height: 40px;
+    justify-content: center;
+    font-size:x-large;
+  }
+  .links4{
+    font-size: 24px;
+  }
+  
+  /* SECTION5 */
+  .child2{
+    height: 100%;
+    width: 50%;
+    background-image: url("./assets/iponewatch.jpg");
+    background-repeat: no-repeat;
+    margin: 10px 5px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: auto;
+    line-height: 50px;
+    justify-content: center;
+    font-size:x-large;
+    padding: 50px;
+  
+  }
+  .child2text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* extra */
+    margin-bottom: auto;
+    margin-top: -10PX;
+    line-height: 30px;
+    justify-content: center;
+    font-size:x-large;
+  }
+  .links5{
+    font-size: 24px;
+  }
+  
+  .series{
+    color: red;
+    font-size: small;
+    letter-spacing: 4px;
+  }
+  
+  /* section 6 */
+  .parent2{
+    height: 580px; ;
+    width: 100%;
+    display: flex;
+    margin-top: -17px;
+  }
+  
+  .childone{
+    height: 100%;
+    width: 50%;
+    background-image: url("./assets/iponewatchicon.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px 5px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: auto;
+    line-height: 50px;
+    justify-content: center;
+    font-size:x-large;
+    padding: 50px;
+    
+  
+  }
+  .childonetext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* extra */
+    margin-bottom: auto;
+    margin-top: -10PX;
+    line-height: 40px;
+    justify-content: center;
+    font-size:x-large;
+  }
+  .links6{
+    font-size: 24px;
+  }
+  
+  /* SECTION 7 */
+  .childtwo{
+    height: 100%;
+    width: 50%;
+    background-image:  url("./assets/iponecashcover.jpg");
+    background-repeat: no-repeat;
+    margin: 10px 5px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: auto;
+    line-height: 20px;
+    justify-content: center;
+    font-size:x-large;
+    padding: 50px;
+  
+  }
+  .childtwotext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* extra */
+    margin-bottom: auto;
+    margin-top: -10PX;
+    line-height: 30px;
+    justify-content: center;
+    font-size:x-large;
+  }
+  .links7{
+    font-size: 24px;
+  }
+  
+  .series{
+    color: red;
+    font-size: small;
+    letter-spacing: 4px;
+  }
+  /* section 8 */
+  .parent3{
+    height: 580px; ;
+    width: 100%;
+    display: flex;
+    margin-top: -17px;
+  }
+  
+  .childonee{
+    height: 100%;
+    width: 50%;
+    background-image: url(./assets/iponecard.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: 10px 5px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: auto;
+    line-height: 50px;
+    justify-content: center;
+    font-size:x-large;
+    padding: 50px;
+    
+  
+  }
+  .childoneetext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* extra */
+    margin-bottom: auto;
+    margin-top: -10PX;
+    line-height: 40px;
+    justify-content: center;
+    font-size:x-large;
+  }
+  .links8{
+    font-size: 24px;
+  }
+  
+  /* section 9 */
+  
+  .childtwoo{
+    height: 100%;
+    width: 50%;
+    background-image: url(./assets/appleside.jpg);
+    background-repeat: no-repeat;
+    margin: 10px 5px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: auto;
+    line-height: 20px;
+    justify-content: center;
+    font-size:x-large;
+    padding: 50px;
+    margin-bottom:  ;
+  }
+  .childtwootext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* extra */
+    margin-bottom: auto;
+    margin-top: -10PX;
+    line-height: 30px;
+    justify-content: center;
+    font-size:x-large;
+  }
+  .links9{
+    font-size: 24px;
+  }
+  
+  .series{
+    color: red;
+    font-size: small;
+    letter-spacing: 4px;
+  }
+  .ending{
+    background-color: red;
+    width: 100%;
+    height: 100px;
+  }
