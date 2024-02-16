@@ -15,8 +15,8 @@
   padding: 10px;
   margin-left: 5px;
   margin-right: 5px;
-  width: 100%;
-  height: 20px;
+  width: 99%;
+  height: 50px;
   position:top;
   }
   div ul li{ display:inline; margin-left:40px; font-size: small;}
@@ -347,7 +347,7 @@
     justify-content: center;
     font-size:x-large;
     padding: 50px;
-    margin-bottom:  ;
+    
   }
   .childtwootext{
     display: flex;
@@ -369,8 +369,96 @@
     font-size: small;
     letter-spacing: 4px;
   }
-  .ending{
-    background-color: red;
-    width: 100%;
-    height: 100px;
-  }
+  
+  #ac-globalfooter .ac-gf-sosumi {
+    
+    border-bottom: 1px solid var(--footer-section-border-color);
+    padding: 17px 0 11px;
+    
+
+}
+#footer{
+  height: 1000px;
+ background-color:  rgb(222, 218, 218);
+ /* margin-top: 20px; */
+ margin-bottom: 10px;
+ justify-content: center;
+}
+
+#footer ul li{
+  /* background-color: yellow; */
+  
+  padding: 0px 10px 0px 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin-top: 10px;
+}
+#border-bottom{
+  
+  border-bottom: 2px solid gray;
+}
+
+
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
+  justify-content: center;
+  align-items: center;
+}
+
+.all-browsers > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+  
+}
+
+.browser {
+  background: white;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  width: 50%;
+  padding: 50px;
+  height: 300px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#centar{
+  
+  width: 100%;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  gap: 5rem;
+}
+#kuchbe{
+  background-color: rgb(161, 159, 159);
+  text-align: center;
+}
+
